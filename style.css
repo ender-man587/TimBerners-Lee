@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+}
+.profile{
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#name{
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: table;
+}
+h1,h2{
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+#nextline{
+    font-family: cursive;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+}
+.line{
+    height: 10px;
+    background-color: black;
+    width: 80px;
+    margin: 20px auto;
+}
+p{
+    max-width: 450px;
+    margin: 20px auto;
+    font-size: 17px;
+    font-size: 17px;
+}
+.insideDiv{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.link{
+    list-style: none;
+    float:left;
+    padding-top: 5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.link:hover{
+    background-color:dodgerblue;
+    font-size: 22px;
+}
+.menu{
+    position: absolute;
+    top:10px;
+    z-index:10;
+    right: 30px;
+    cursor: pointer;
+}
